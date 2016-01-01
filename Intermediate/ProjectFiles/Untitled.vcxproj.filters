@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Untitled.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{50F23CE4-B4DA-4AEF-9ABA-A471B560E530}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Untitled.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UntitledEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F05C5FC6-1ED6-4489-BEAF-E4D47E6EC879}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Untitled">
+			<UniqueIdentifier>{CF1E4C00-F3E6-4BE8-B23A-CAAF9EA24E45}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Untitled\Projectile.cpp">
+			<Filter>Source\Untitled</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Untitled\Projectile.h">
+			<Filter>Source\Untitled</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Untitled\Untitled.Build.cs">
+			<Filter>Source\Untitled</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Untitled\Untitled.cpp">
+			<Filter>Source\Untitled</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Untitled\Untitled.h">
+			<Filter>Source\Untitled</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Untitled\UntitledGameMode.cpp">
+			<Filter>Source\Untitled</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Untitled\UntitledGameMode.h">
+			<Filter>Source\Untitled</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Untitled\UntitledPawn.cpp">
+			<Filter>Source\Untitled</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Untitled\UntitledPawn.h">
+			<Filter>Source\Untitled</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
