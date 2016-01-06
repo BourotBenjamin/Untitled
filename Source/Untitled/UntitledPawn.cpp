@@ -80,7 +80,7 @@ void AUntitledPawn::SetupPlayerInputComponent(class UInputComponent* InputCompon
 	InputComponent->BindAxis("Thrust", this, &AUntitledPawn::ThrustInput);
 	InputComponent->BindAxis("MoveUp", this, &AUntitledPawn::MoveUpInput);
 	InputComponent->BindAxis("MoveRight", this, &AUntitledPawn::MoveRightInput);
-		InputComponent->BindAction("Fire", IE_Released, this, &AUntitledPawn::Fire);
+	InputComponent->BindAction("Fire", IE_Pressed, this, &AUntitledPawn::Fire);
 }
 
 void AUntitledPawn::ThrustInput(float Val)
